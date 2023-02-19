@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #9ddfd3;
+}
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-family: "GangwonEduPowerExtraBoldA";
+  color: white;
+  text-shadow: 4px 4px 2px #232323;
+  -webkit-text-stroke: 2px #232323;
+  font-size: 120px;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-family: "GangwonEduPowerExtraBoldA";
+  color: #ffebb8;
+  text-shadow: 2px 2px 0px #232323;
+  -webkit-text-stroke: 2px #232323;
+  font-size: 60px;
+  letter-spacing: -3px;
+  margin: 0px;
+  padding-bottom: 8px;
+  line-height: 1;
+}
+
+.insta-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.link-list {
+  padding: 60px 20px 60px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.site-link {
+  background-color: #12887a;
+  color: white;
+  padding: 16px;
+  font-size: 28px;
+  border-radius: 50px;
+  width: 400px;
+  text-decoration: none;
+  border: solid 2px black;
+  box-shadow: 2px 2px 0px black;
+}
+.site-link:hover,
+.site-link:active {
+  background-color: #13665c;
+  color: #ffebb8;
+  transition: all 0.2s ease-in-out;
+}
+
+.bear-friend {
+  width: 200px;
+  height: 140px;
+  animation: dance 3s infinite;
+}
+.dancing-bears {
+  display: flex;
+  transform: translateX(-60px);
+}
+
+@keyframes dance {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(30px, -20px);
+  }
+  20% {
+    transform: translate(60px, 0px);
+  }
+  30% {
+    transform: translate(90px, -20px);
+  }
+  40% {
+    transform: translate(120px, 0px);
+  }
+  50% {
+    transform: translate(120px, -20px) scaleX(-1);
+  }
+  60% {
+    transform: translate(90px, 0px) scaleX(-1);
+  }
+  70% {
+    transform: translate(60px, -20px) scaleX(-1);
+  }
+  80% {
+    transform: translate(30px, 0px) scaleX(-1);
+  }
+  90% {
+    transform: translate(0px, -20px);
+  }
+}
+
+@media (max-width: 560px) {
+  h1 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .insta-link {
+    font-size: 16px;
+  }
+  .site-link {
+    width: 300px;
+    font-size: 20px;
+  }
+  .bear-friend {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 290px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .insta-link {
+    font-size: 16px;
+  }
+  .link-list {
+    padding: 20px 20px 80px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .site-link {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .bear-friend {
+    width: 80px;
+    height: 60px;
+  }
+}
