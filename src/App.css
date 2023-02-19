@@ -5,8 +5,16 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background-color: #9ddfd3;
+  overflow-y: hidden;
 }
 main {
   max-width: 680px;
@@ -36,25 +44,18 @@ h3 {
   font-size: 60px;
   letter-spacing: -3px;
   margin: 0px;
-  padding-bottom: 8px;
   line-height: 1;
 }
 
-.insta-link {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-}
-
 .link-list {
-  padding: 60px 20px 60px;
-
+  padding: 60px 20px 180px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 .site-link {
+  font-family: "GyeonggiBatang";
   background-color: #12887a;
   color: white;
   padding: 16px;
@@ -127,7 +128,11 @@ h3 {
   }
   .site-link {
     width: 300px;
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .dacing-container {
+    position: absolute;
+    bottom: 0px;
   }
   .bear-friend {
     width: 120px;
@@ -142,9 +147,6 @@ h3 {
   h3 {
     font-size: 32px;
   }
-  .insta-link {
-    font-size: 16px;
-  }
   .link-list {
     padding: 20px 20px 80px;
     width: 100%;
@@ -154,7 +156,6 @@ h3 {
     padding: 8px;
     width: 100%;
     box-sizing: border-box;
-    font-size: 20px;
   }
 
   .bear-friend {
