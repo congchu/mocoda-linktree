@@ -17,24 +17,22 @@ function App() {
         >
           @mocoda.official
         </a>
-        <a
+        <div
           className="site-link"
-          href="#"
           onClick={() =>
             alert("페이지 준비중입니다! \n인스타를 확인해주세요 😉")
           }
         >
           모코다 모임 구경
-        </a>
-        <a
+        </div>
+        <div
           className="site-link"
-          href="#"
           onClick={() =>
             alert("페이지 준비중입니다! \n인스타를 확인해주세요 😉")
           }
         >
           쓸데많고 즐거운 이벤트 구경
-        </a>
+        </div>
       </div>
       <div className="dacing-container">
         <div className="dancing-bears">
