@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6de69532.css",
+    "main.js": "/static/js/main.1dee3246.js",
+    "static/media/bear-friend.png": "/static/media/bear-friend.15440c260e4ba44e957f.png",
+    "index.html": "/index.html",
+    "main.6de69532.css.map": "/static/css/main.6de69532.css.map",
+    "main.1dee3246.js.map": "/static/js/main.1dee3246.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de69532.css",
+    "static/js/main.1dee3246.js"
+  ]
+}
